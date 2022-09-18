@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "dependencyDashboard": false,
+  "labels": ["renovate"],
+  "rangeStrategy": "pin",
+  "semanticCommits": "enabled",
+  "suppressNotifications": [],
+  "updateLockFiles": true
+}
